@@ -1,7 +1,7 @@
 # goitneo-python-hw-1-data-science-and-data-analytics-2
 
 ## Task #1:
-- Open the script birthday_reminder.py in your preferred Python editor.
+- Open the script task_1.py in your preferred Python editor.
 - Modify the users list by adding the details of users as needed.
 - Run the script.
 
