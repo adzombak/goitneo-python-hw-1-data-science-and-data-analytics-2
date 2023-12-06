@@ -24,3 +24,18 @@ def get_birthdays_per_week(users):
 
     for day, names in birthdays_per_week.items():
         print(f"{day}: {', '.join(names)}")
+
+
+users = [
+    {"name": "Bill Gates", "birthday": datetime(1955, 12, 10)},
+    {"name": "Jan Koum", "birthday": datetime(1976, 12, 11)},
+    {"name": "Jan", "birthday": datetime(1976, 12, 11)},
+    {"name": "Koum", "birthday": datetime(1976, 12, 12)},
+    {"name": "Jum", "birthday": datetime(1976, 12, 13)},
+    {"name": "Jaoum", "birthday": datetime(1976, 12, 14)},
+    {"name": "Janum", "birthday": datetime(1976, 12, 15)},
+    {"name": "anoum", "birthday": datetime(1976, 12, 15)},
+    {"name": "um", "birthday": datetime(1976, 12, 16)}
+]
+
+get_birthdays_per_week(users)
